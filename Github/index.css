@@ -1,0 +1,52 @@
+body{
+    background-image:url("./asset/bg-main.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+#logo-name{
+    text-align: center;
+    color:goldenrod;
+    font-family:cursive;
+    font-size:2rem;
+}
+#description{
+    text-align: center;
+    color:grey;
+    font-family:sans-serif;
+    text-decoration-style:wavy;
+}
+#form{
+    text-align: center;
+    margin-top: 2%;
+}
+#text{
+background-color: transparent;
+border-style:none;
+border-bottom: 1px solid grey;
+outline: none;
+padding:3px;
+}
+#user-name{
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    padding:3px;
+    outline: none;
+    color:white;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius:4px;
+    width:80px;
+}
+#data-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:goldenrod;
+    margin-top: 5%;
+}
+#data-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:goldenrod;
+}
